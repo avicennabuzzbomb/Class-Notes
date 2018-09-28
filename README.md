@@ -17,7 +17,7 @@ master must push the reconciled file back to the remote host (origin)
 -"git add <filename>" moves the named file to the staging area. "git commit -m <"blahblahblah">" commits all staged files for pushing; a commit message detailing the modifications to the file, or what
 the file is, is required (with some terms prohibited so that language is not ambiguous to other collaborators).
 -"git status" shows what has been committed, alerts to any conflicts, shows what files have been changed or added in the local repo but remain to be committed to the remote repo.
-
+-and don't forget, "git push" is the last thing you need to do to send this to remote!!
 
 
 
