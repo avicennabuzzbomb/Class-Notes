@@ -1,5 +1,4 @@
-## Contents:
-
+## Table of Contents:
 - [Background information](#background-information)
 	- [Glossary]
 - [Basic Python commands](#basic-shell-commands)
