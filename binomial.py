@@ -109,4 +109,4 @@ if __name__ == '__main__':
         choose(args.n,args.k)
     else:
         logfactorial(args.n,args.k)
- 
+ #still needs to have an optional argument for the log part...
