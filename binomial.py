@@ -80,9 +80,9 @@ def choose(num=args.n,kay=args.k): #has doctest in docstring
         return nChooseK
 
 def convertLog(num): #make the --log argument default to this method (call this first), else just call choose()
-    """Converts the input from log base 2 to original integer form."""
-    coefficient = choose(args.n,args.k)
-    coefficient = 2**coefficient
+    """Converts the input from log base e to original integer form."""
+    coefficient = math.exp(num)
+    coefficient = int(round(coefficient))
     return coefficient
 
 #This function works
